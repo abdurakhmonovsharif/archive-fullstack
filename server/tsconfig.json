@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "module": "NodeNext", // Output ES modules
+    "target": "es2016", // Use the latest ECMAScript features
+    "outDir": "./dist", // Output directory for compiled JS files
+    "rootDir": "./src", // Root directory of TypeScript files
+    "sourceMap": true, // Generate source maps
+    "strict": true, // Enable strict type checking,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true
+  },
+  "include": [
+    "src/**/*"
+  ], // Include all TypeScript files
+  "exclude": [
+    "node_modules"
+  ] // Exclude node_modules
+}
